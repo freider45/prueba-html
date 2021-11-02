@@ -1,0 +1,61 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 3.5rem;
+}
+
+section {
+    position: relative;
+    top: 2rem;
+    width: 80%;
+    min-width: 50rem;
+    max-width: 60rem;
+    min-height: 50rem;
+    margin: 0 auto;
+    border-radius: 3.5rem;
+    background-color: black;
+    border: 0.5rem solid green;
+}
+
+.parent {
+    width: 20rem;
+    height: 5rem;
+    background-color: green;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    position: absolute;
+    top: 5.3%;
+    left: 42.5%;
+}
+
+#titulo {
+    position: absolute;
+    top: 0.5rem;
+    left: 6.5rem;
+    font-size: 2.5rem;
+}
+
+#texto {
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 1rem;
+    top: 75%;
+}
+.img {
+    border: 0.2rem solid yellow;
+    position: absolute;
+    left: 35%;
+    top: 12%;
+}
